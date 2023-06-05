@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    margin: auto;
+}
+body{
+    background-color: rgba(94, 185, 94, 0.822);
+}
+img{
+   width: 100%; 
+}
+
+section{
+    background-image: linear-gradient(to bottom, rgba(94,185,94,0.822),rgb(0, 78, 0));
+    
+}
+section > h1,h5 {
+     text-align: center;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 10px 10px 10px;
+}
+section > h1{
+    font-size: 3em;
+}
+
+h1{
+    color: darkgreen;
+    font-family: 'android';
+    text-align: center;
+}
+main{
+    background-color: white;
+    padding: 10px 10px 10px;
+   margin: 0px 500px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+article {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color:darkgreen;
+    font-family: 'android';
+    background-color: rgba(144, 238, 144, 0.205);
+    
+}
+main > h5{
+    background-color: rgba(3, 158, 3, 0.582);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+nav > p{
+    background-color: rgba(144, 238, 144, 0.342);
+   
+   
+   
+}
+span{
+    color: darkgreen;
+    
+}

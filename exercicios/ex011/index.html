@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>tente abrir esse site em diversos dispositivos diferentes ou simplesmente aumente e dimunua o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagens flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>primeira tentativa</p>
+    <audio src="midia/Dream It - TrackTribe.mp3" controls></audio>
+    
+      <h1>videos hospedados localmente</h1>
+      <h2>esses videos estao hospedados no meu servidor</h2>
+        <video src="midia/carro.mp4" windth="500" controls loop></video>
+        <video src="midia/Ceu.webm" windth="10" controls loop></video>
+        <video controls loop> 
+            <source src="midia/carro tbm.webm" type="video/webm">
+        </video>
+
+</body>
+</html>

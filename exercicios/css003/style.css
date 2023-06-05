@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+*{/*configurações globais, utilizam essa configuração*/}
+
+body {
+      background-image: linear-gradient(to right,#E6DFD9,#729599);
+ }  
+main{
+    background-color: rgb(218, 13, 174);
+    width: 600px;
+    margin: auto;
+}
+ p{
+    text-align: justify;
+ }
