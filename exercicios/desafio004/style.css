@@ -7,6 +7,23 @@
 font-family: 'Sriracha', cursive;*/
 header > h1,h2{
     font-family: 'passion one', cursive;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+   
+}
+header{
+    margin: 0px;
+}
+
+body{
+    text-align: justify;
+    font-family: 'sriracha',cursive;
+  
+}
+section > p{
+    background-image:image('/imagens/background001.jpg');
 }
 
 
