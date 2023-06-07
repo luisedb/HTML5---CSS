@@ -41,25 +41,30 @@ body{
 section.fundo{
     background-color:gray;
     color: white;
+
    
 }
 section.fundo >p{
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: rgba(0, 0, 0, 0.288);
     width: 400px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.199);
 }
 section#f1{
     background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
+    background-position: right center;
+    text-shadow: 1px 1px  0px black;
 }
 
 section#f2{
     background-image: url('imagens/background002.jpg');
-    background-repeat: no-repeat;
+    text-shadow: 1px 1px 0px black;
     background-size: cover;
     height: 100vh;
-    
+    background-attachment: fixed;
+    background-position: right center;
 }
 
 header >h1{
