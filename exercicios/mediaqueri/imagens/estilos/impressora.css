@@ -1,1 +1,21 @@
 @charset "utf-8";
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'coursive new',  Courier, monospace ;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+
+}
+article{
+    width: 100%;
+}
+article::after{
+    contain: 'esse exercicio, estao sendo produzido graças ao gustavo guanabara';   
+}
