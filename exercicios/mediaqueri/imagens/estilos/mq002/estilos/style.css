@@ -13,6 +13,7 @@ html,body{
     background-color: black;
     background-size: contain;
     background-repeat: no-repeat;
+    width: 600px;
 }
 h1{
     color: white;
