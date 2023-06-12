@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Login</h1>
-        <p>Seja bem vindo(a) novamente.Faça login para acessar sua conta e poder navegar em nosso site</p>
-
-    </header>
-    <form>
-        <p>
-            <label for="iLogin"></label>
-            <input type="text" name="Login" id="iLogin" placeholder="Digite o seu nome de usuario" required>
-        </p>
-        <p>
-            <label for="isenha"  ></label>
-            <input type="password" name="senha" id="isenha" placeholder="digite sua senha" required>
-        </p>
-
-
-
-    </form>
+    <main>
+            <section>
+                <div></div>
+                <h1><strong>Login</strong></h1>
+                <p>Seja bem vindo(a) novamente.Faça login para acessar sua conta e poder navegar em nosso site</p>
+                     <form action="login.php">
+                        <p>
+                            <label for="iLogin"></label>
+                            <input type="text" name="Login" id="iLogin" placeholder="Digite o seu nome de usuario" required>
+                        </p>
+                        <p>
+                            <label for="isenha"  ></label>
+                            <input type="password" name="senha" id="isenha" placeholder="digite sua senha" required>
+                        </p>
+                        <p>
+                            <input type="submit" value="entrar" class="azul">
+                            <input type="submit" value="Esqueci minha senha" class="azul">
+                        </p>
+                    </form>
+            </section>
+    </main>
 </body>
 </html>
